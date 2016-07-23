@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Leuveld</title>
+  <meta name="description" content="Leuveld boomkwekerijen">
+  <meta name="author" content="Coen Oude Luttikhuis">
+
+     <!-- Font Awesome -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">-->
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+    <script src="js/leuveld.js"
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body style="background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/geldboom.jpg); background-size: cover;background-repeat:no-repeat;background-attachment: fixed;background-position: center center;" alt="MoneyTree">
+    <hgroup class="Header" style="text-align:center;margin-top:250px;color:white;">
+    <h2 style="font-weight:700">Congratulations with your price!!</h2>
+    <h3 style="font-weight:300">Activate your discount by entering your action code </h3>
+    </hgroup>
+        <div class="ActivateDiscount" style="text-align:center;">
+        </style>>
+        <div class="md-form">
+        <input value="" placeholder="Enter your code" type="text" id="form6" class="form-control" style="width:150px;color:white;margin:auto;text-align:center;">
+            <label class="active" for="form6"></label>
+            <button type="button" class="btn btn-success" style="margin-top:20px;">Activate discount</button>
+        </div>
+
+        </div>       
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBDO-wEGbjacH846ufzqBg4s6dFrho0bBs",
+        authDomain: "leuveld-ee38a.firebaseapp.com",
+        databaseURL: "https://leuveld-ee38a.firebaseio.com",
+        storageBucket: "leuveld-ee38a.appspot.com",
+    };
+    firebase.initializeApp(config);
+    </script>
+</body>
+</html>
